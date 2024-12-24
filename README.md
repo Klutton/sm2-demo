@@ -4,7 +4,7 @@ a self implemented Public Key cryptographic algorithm SM2 based on elliptic curv
 ```python
 # 测试代码
 if __name__ == "__main__":
-    # 生成密钥对 ken generation
+    # 生成密钥对 key generation
     private_key, public_key = generate_keypair()
     print("私钥:", hex(private_key))
     # 私钥: 0xd3ac52856b71a756fa8cdf3cc87a6a73d7d121fb4d70620c065f895807ec4d51
